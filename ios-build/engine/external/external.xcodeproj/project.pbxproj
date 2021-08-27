@@ -1,0 +1,3073 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3B1A8FCBECC6448289726991 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 150D1E79DE654599B48D64B3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				5E275BB711BF9608F100595D /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				66399CDC91CC41DC80D3B9DD /* PBXTargetDependency */,
+				4AD60D85C72E46A089679442 /* PBXTargetDependency */,
+				A1650ADF8EE5405B99931B61 /* PBXTargetDependency */,
+				650A6C64476D4FFF9D1EFC66 /* PBXTargetDependency */,
+				915904E2503D424FB2A2D80A /* PBXTargetDependency */,
+				72FB9AC171C944BA89B30C8C /* PBXTargetDependency */,
+				40EB507CAF934BA2B13114AF /* PBXTargetDependency */,
+				D070443F7698451ABE2F7914 /* PBXTargetDependency */,
+				D4B9FCC73E3F48A2A6F7F364 /* PBXTargetDependency */,
+				D04035FF86324B94B8E2FCBB /* PBXTargetDependency */,
+				B3458FFC6B8B4904979AB34F /* PBXTargetDependency */,
+				B3478AF7D83B4A869E45FA2C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		70279F6B86DA4E04BDC49D59 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A1B49ADA3BB24BCBBC240572 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				2A1A9C52E710A0DA99E8E96A /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		09A2D59C44404AEF828D4310 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXBuildFile; fileRef = C9CDA5D9E2C0410A94210AE6 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */; };
+		09E50D78F8704E478C728F08 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXBuildFile; fileRef = 072447BC50A9431ABD2C1028 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/sweep/sweep.cc */; };
+		0D316A03AE8E4A5DAE683CAD /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXBuildFile; fileRef = D64820837F4546159E78F2BF /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */; };
+		131F5B41AC1142DF96E70342 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = CFBBEA7B7EBC400FBB5493C3 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */; };
+		14241D9E27934AAD9CE00147 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 622270F826AA4930895DC86C /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxtea/CMakeLists.txt */; };
+		164D9932AF00435CB56772AE /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXBuildFile; fileRef = 95E7EABA6DCC4A28AADD6F78 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/tinyxml2/tinyxml2.cpp */; };
+		1661B0D998AA44D9A22B2A59 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 481D416542F745F8A555E6FF /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */; };
+		17BC85B3FC894D509BDA6BEC /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXBuildFile; fileRef = 62CF685EA71A469299D3BA53 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/sweep/cdt.cc */; };
+		1C17CC85DC37433095FDCF59 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2562F603F46841738799D705 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/clipper/CMakeLists.txt */; };
+		204CA77741FA4E9AB1A1EC06 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C3D8947282854E578F2B09D4 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/CMakeLists.txt */; };
+		27B58D1C75E342EFAF29467E /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXBuildFile; fileRef = 9527F3B4A874477EBA2E2219 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxtea/xxtea.cpp */; };
+		283BF42EE341450B82541C1A /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 480B1CA3E77540A3B4685E3E /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/tinyxml2/CMakeLists.txt */; };
+		28A5DEFECE1D4BE18444647E /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 66A2CA516FFD42EC982B8A50 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/CMakeLists.txt */; };
+		2DF93B16BA04468D80DAC259 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXBuildFile; fileRef = 3012C1BF859A42738C35E51E /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */; };
+		339EEB50AAD944DD9C8B3145 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXBuildFile; fileRef = 88D25AC5EB4648C094EE462F /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/clipper/clipper.cpp */; };
+		33A8899839F9430C968C5EB4 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXBuildFile; fileRef = BD1282394B4C4B5AB0A428D4 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/ioapi.cpp */; };
+		385FA240C0BF4FB9A5656D7F /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/CMakeFiles/external.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = A78982D6F5744CD9AA04AD00 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/CMakeFiles/external.dir/Info.plist */; };
+		398BB1911AE64FD483CF58C8 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3747B7C24CA44CD7B8CFAAFE /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/CMakeLists.txt */; };
+		3E08CA281D98483B93DC6A80 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/md5/md5.c */ = {isa = PBXBuildFile; fileRef = F2E776368796402B9835EC6F /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/md5/md5.c */; };
+		406DCB7D16134D2F8B3C0F62 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 885AFEB0C6EA4253B4A8728D /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/edtaa3func/CMakeLists.txt */; };
+		43263CE14AC64CDBA2813839 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXBuildFile; fileRef = 3BBD2F641B684FEE8969EB50 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */; };
+		4872F22A80B149128FB61AEC /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXBuildFile; fileRef = 175B60CE6CEF4D11BE772070 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/sweep/sweep_context.cc */; };
+		4C35DE649921466D9317465C /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 7A3E7E941D7E44C9A4171DBF /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */; };
+		4DB67BC3674F4C41831CD76A /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = A5E72FE92D1C49A39B674BE8 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */; };
+		4FF6928CC6664C138D44B077 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXBuildFile; fileRef = CA949E503D0E40F78831442D /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */; };
+		5A20EE6D77724CD5A3E18A4C /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXBuildFile; fileRef = C68BFCFB7B0742D3B8430897 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/ConvertUTF/ConvertUTF.c */; };
+		5D0CEDB5D375429C9392C485 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 529EA6A8B8304199B52F5F94 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */; };
+		663AB878FBF545E187037BD3 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 2DAADCAD798F4EF7832751B1 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */; };
+		6A52B227C61847B3A0E7551C /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXBuildFile; fileRef = 49361D9B08CB4DBE8DD2FCE3 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */; };
+		6E0E930F7D95421EAD681719 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXBuildFile; fileRef = D227664EC06441698BEEB5E0 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */; };
+		72022B61D84547A6979C23D3 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXBuildFile; fileRef = 8EEDA7B891914091B4C83BB7 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxhash/xxhash.c */; };
+		7723684D7BED4AFB8CDFBA35 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXBuildFile; fileRef = 4765D6C7A1194DE7A677D7C9 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/sweep/advancing_front.cc */; };
+		77C8C5A406654BA1B196B7C5 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 4B022C7887034A7598E2110C /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */; };
+		83D51A865DC5470C97BC6499 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXBuildFile; fileRef = 40E6EACD348A4D30A8C018CB /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourAlloc.cpp */; };
+		87718D26A8B74E59B778F377 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXBuildFile; fileRef = 24EDA3CAAE8F4689A15EDF15 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/unzip.cpp */; };
+		8ACC7CCE5A5843628BDFFCE3 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 448D4D21BFFF414C88518156 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/md5/CMakeLists.txt */; };
+		8E8DF52D62D24AD9909B8AE5 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = E1F1A4C3CD274679B41B4DD5 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */; };
+		93A272B5ABAC4A22B35A8CDF /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXBuildFile; fileRef = A6C9B24692FB4113B62D506B /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/common/shapes.cc */; };
+		A3C672E0E2804831B5BBD5FC /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXBuildFile; fileRef = C942920F34734524B18BAC3E /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourCommon.cpp */; };
+		B09F139601CE4B75B22808CA /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXBuildFile; fileRef = 2D019753EC004DC1B5C06A9B /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/edtaa3func/edtaa3func.cpp */; };
+		B4F565B10718486580EE3DE8 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 09F64D2701AD404E87EB9EBA /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/CMakeLists.txt */; };
+		B911859C03E14553A3393C8A /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A5A7A39FD3A843EE8E7ADCE0 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/ConvertUTF/CMakeLists.txt */; };
+		B91C5489FFD74A74B8C04D23 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXBuildFile; fileRef = 169C0CD2ED2C4C6BAF58385A /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */; };
+		BF5841F5A7184824B2FCC57C /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F06640ED1DD74D3992A6256F /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxhash/CMakeLists.txt */; };
+		C146B76F6F464939A7ECE789 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 4A7D32DE466C40239370A5F7 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */; };
+		C8008DCAE3254651AF97F249 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXBuildFile; fileRef = 060E2FE167A3420CABFC7A9E /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */; };
+		D9B346EDBD524B328C90EA92 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXBuildFile; fileRef = BD17CCB0AFC44DE988834098 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourNavMesh.cpp */; };
+		DA1FE3A6612E4DCDA6ED12AE /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 2D3436DF0A3E4A33BC89B8CE /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */; };
+		E7E4FD4597214183B00E84AE /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXBuildFile; fileRef = D203C62472CE4A86BC3A9129 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourNode.cpp */; };
+		EB91B0B63E3B40AE96DF7A26 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXBuildFile; fileRef = 64B194C9A8534228BB684677 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/ioapi_mem.cpp */; };
+		F03A956C934B4089BE83CF7A /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 9DED485593C34175AC6BAB74 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */; };
+		F3854686A59741C1842A17B7 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/empty.cpp */ = {isa = PBXBuildFile; fileRef = C641EF41A4524174AF266DE2 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/empty.cpp */; };
+		F3B4DBC172444CE8B85414E6 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 22757D4CB6A24801A2239CA4 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */; };
+		F6E39D6B66544F558B052BA4 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXBuildFile; fileRef = FCB80D37350E415892CD0BEC /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/fastlz/fastlz.c */; };
+		F8BDA955FF0B4BE2A93E2424 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 22163C8A06C54904A5328AAE /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */; };
+		FFE25ADC2A9E4B55A662898F /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 0C06B7DD1208405F8C5FF44D /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		16CDED94E7284319B51F17E1 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		2892AC5CF0114F0595F1A6FA /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		C5B1DE0C7B4449F4851CC15F /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		EDB2ED20EED54DD698EA02DC /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		14FDFB8E6E3240E2845C7E0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A4B861A66044434A606EF8D;
+			remoteInfo = ext_xxhash;
+		};
+		2F3D5279CE9E47089712EF34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89487A1238C04B96854709D1;
+			remoteInfo = ext_md5;
+		};
+		383A817420444AD8887F5A2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81F3BB2F11C9496E9BDBB8FA;
+			remoteInfo = ext_clipper;
+		};
+		4D7D0CC5FBB54FF28C665281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38E3A62F98F248B9972B0DBF;
+			remoteInfo = ext_recast;
+		};
+		68004B9EE5EA4BD1A709D650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70279F6B86DA4E04BDC49D59;
+			remoteInfo = ZERO_CHECK;
+		};
+		71DC026853CF404F826B4B8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EFD4FC382174CBBBF63EA81;
+			remoteInfo = ext_poly2tri;
+		};
+		87435B71AAB24086BCF38AD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09362DA815314B35B1091DF2;
+			remoteInfo = ext_edtaa3func;
+		};
+		89CB2A2823974E7EAE26518D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6BC8D0E75A84F3A85A1D65D;
+			remoteInfo = ext_tinyxml2;
+		};
+		9209DEC9C7B74C35A22A8187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E796DDC3FE43479B7771B6;
+			remoteInfo = ext_unzip;
+		};
+		A918274B54FE40C0977BCFE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6BC8D0E75A84F3A85A1D65D;
+			remoteInfo = ext_tinyxml2;
+		};
+		A9E267FC24624EBEA333E86C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EFD4FC382174CBBBF63EA81;
+			remoteInfo = ext_poly2tri;
+		};
+		ACB9770ACB07469388503E88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 411E586DCE95471AB19BAEED;
+			remoteInfo = ext_xxtea;
+		};
+		BA94CF45B04545C9BDFB0CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A4B861A66044434A606EF8D;
+			remoteInfo = ext_xxhash;
+		};
+		C0B0D458574A412481E00C42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81F3BB2F11C9496E9BDBB8FA;
+			remoteInfo = ext_clipper;
+		};
+		C4F55A0E6AB14337A4C1AC97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 547E7F2E8F494D36BC6C83F8;
+			remoteInfo = external;
+		};
+		E3F0D5E70C044158A1D61623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 126AAC2B2EAC4ADCAB6EA133;
+			remoteInfo = ext_convertUTF;
+		};
+		EAD3E21DB6B8471A907EAAF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89487A1238C04B96854709D1;
+			remoteInfo = ext_md5;
+		};
+		ECACC847B48E45518236636B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 126AAC2B2EAC4ADCAB6EA133;
+			remoteInfo = ext_convertUTF;
+		};
+		EEA285F771CB47D088134046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 411E586DCE95471AB19BAEED;
+			remoteInfo = ext_xxtea;
+		};
+		EECE10B5211647349DCB39F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70279F6B86DA4E04BDC49D59;
+			remoteInfo = ZERO_CHECK;
+		};
+		F4EC8F5BBA66428C8651B8B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09362DA815314B35B1091DF2;
+			remoteInfo = ext_edtaa3func;
+		};
+		F5BE5712F6364D84B26EC44D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38E3A62F98F248B9972B0DBF;
+			remoteInfo = ext_recast;
+		};
+		F76E113FDD654D18A87A65A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7822EE768244657895074FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E796DDC3FE43479B7771B6;
+			remoteInfo = ext_unzip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		060E2FE167A3420CABFC7A9E /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCache.cpp; path = recast/DetourTileCache/DetourTileCache.cpp; sourceTree = SOURCE_ROOT; };
+		072447BC50A9431ABD2C1028 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep.cc; path = poly2tri/sweep/sweep.cc; sourceTree = SOURCE_ROOT; };
+		09F64D2701AD404E87EB9EBA /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = unzip/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0C06B7DD1208405F8C5FF44D /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DebugDraw.cpp; path = recast/DebugUtils/DebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		0E691F88C6D54D0BB4B83C0C /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0E9227CD06784DB9B3092B47 /* ext_unzip */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_unzip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EEFEBF3CB24ED6AE6963D2 /* ext_md5 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_md5.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		169C0CD2ED2C4C6BAF58385A /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshQuery.cpp; path = recast/Detour/DetourNavMeshQuery.cpp; sourceTree = SOURCE_ROOT; };
+		175B60CE6CEF4D11BE772070 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep_context.cc; path = poly2tri/sweep/sweep_context.cc; sourceTree = SOURCE_ROOT; };
+		1FE7FA232899409DA20D390A /* ext_xxtea */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxtea.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		22163C8A06C54904A5328AAE /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		22757D4CB6A24801A2239CA4 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		24EDA3CAAE8F4689A15EDF15 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unzip.cpp; path = unzip/unzip.cpp; sourceTree = SOURCE_ROOT; };
+		2562F603F46841738799D705 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = clipper/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2D019753EC004DC1B5C06A9B /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = edtaa3func.cpp; path = edtaa3func/edtaa3func.cpp; sourceTree = SOURCE_ROOT; };
+		2D3436DF0A3E4A33BC89B8CE /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		2DAADCAD798F4EF7832751B1 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		3012C1BF859A42738C35E51E /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathCorridor.cpp; path = recast/DetourCrowd/DetourPathCorridor.cpp; sourceTree = SOURCE_ROOT; };
+		3747B7C24CA44CD7B8CFAAFE /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = recast/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3BBD2F641B684FEE8969EB50 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConvertUTFWrapper.cpp; path = ConvertUTF/ConvertUTFWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		40E6EACD348A4D30A8C018CB /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourAlloc.cpp; path = recast/Detour/DetourAlloc.cpp; sourceTree = SOURCE_ROOT; };
+		448D4D21BFFF414C88518156 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = md5/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4765D6C7A1194DE7A677D7C9 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = advancing_front.cc; path = poly2tri/sweep/advancing_front.cc; sourceTree = SOURCE_ROOT; };
+		480B1CA3E77540A3B4685E3E /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tinyxml2/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		481D416542F745F8A555E6FF /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshBuilder.cpp; path = recast/Detour/DetourNavMeshBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		48BE2BD614B942738E7E77B5 /* ext_recast */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_recast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		49361D9B08CB4DBE8DD2FCE3 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourLocalBoundary.cpp; path = recast/DetourCrowd/DetourLocalBoundary.cpp; sourceTree = SOURCE_ROOT; };
+		4A7D32DE466C40239370A5F7 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourDebugDraw.cpp; path = recast/DebugUtils/DetourDebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		4B022C7887034A7598E2110C /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCacheBuilder.cpp; path = recast/DetourTileCache/DetourTileCacheBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		529EA6A8B8304199B52F5F94 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		622270F826AA4930895DC86C /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxtea/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		62CF685EA71A469299D3BA53 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cdt.cc; path = poly2tri/sweep/cdt.cc; sourceTree = SOURCE_ROOT; };
+		64B194C9A8534228BB684677 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi_mem.cpp; path = unzip/ioapi_mem.cpp; sourceTree = SOURCE_ROOT; };
+		66A2CA516FFD42EC982B8A50 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		69AB53C6506C418FBEA2100E /* ext_edtaa3func */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_edtaa3func.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A3DE358E8741ADB318970A /* ext_tinyxml2 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_tinyxml2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A3E7E941D7E44C9A4171DBF /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		7F03F6B60F114C08B5B87773 /* external */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libexternal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		885AFEB0C6EA4253B4A8728D /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = edtaa3func/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		88D25AC5EB4648C094EE462F /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clipper.cpp; path = clipper/clipper.cpp; sourceTree = SOURCE_ROOT; };
+		8EEDA7B891914091B4C83BB7 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xxhash.c; path = xxhash/xxhash.c; sourceTree = SOURCE_ROOT; };
+		9527F3B4A874477EBA2E2219 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xxtea.cpp; path = xxtea/xxtea.cpp; sourceTree = SOURCE_ROOT; };
+		95E7EABA6DCC4A28AADD6F78 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = tinyxml2/tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+		9DED485593C34175AC6BAB74 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		A582C0C5977E4B2688CD59F8 /* ext_poly2tri */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_poly2tri.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A7A39FD3A843EE8E7ADCE0 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = ConvertUTF/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A5E72FE92D1C49A39B674BE8 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		A6C9B24692FB4113B62D506B /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shapes.cc; path = poly2tri/common/shapes.cc; sourceTree = SOURCE_ROOT; };
+		A78982D6F5744CD9AA04AD00 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/CMakeFiles/external.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/CMakeFiles/external.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		BD1282394B4C4B5AB0A428D4 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi.cpp; path = unzip/ioapi.cpp; sourceTree = SOURCE_ROOT; };
+		BD17CCB0AFC44DE988834098 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMesh.cpp; path = recast/Detour/DetourNavMesh.cpp; sourceTree = SOURCE_ROOT; };
+		C3D8947282854E578F2B09D4 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = poly2tri/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C641EF41A4524174AF266DE2 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/empty.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = empty.cpp; path = empty.cpp; sourceTree = SOURCE_ROOT; };
+		C68BFCFB7B0742D3B8430897 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ConvertUTF.c; path = ConvertUTF/ConvertUTF.c; sourceTree = SOURCE_ROOT; };
+		C942920F34734524B18BAC3E /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCommon.cpp; path = recast/Detour/DetourCommon.cpp; sourceTree = SOURCE_ROOT; };
+		C9CDA5D9E2C0410A94210AE6 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCrowd.cpp; path = recast/DetourCrowd/DetourCrowd.cpp; sourceTree = SOURCE_ROOT; };
+		CA949E503D0E40F78831442D /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourProximityGrid.cpp; path = recast/DetourCrowd/DetourProximityGrid.cpp; sourceTree = SOURCE_ROOT; };
+		CFBBEA7B7EBC400FBB5493C3 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		D203C62472CE4A86BC3A9129 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNode.cpp; path = recast/Detour/DetourNode.cpp; sourceTree = SOURCE_ROOT; };
+		D227664EC06441698BEEB5E0 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourObstacleAvoidance.cpp; path = recast/DetourCrowd/DetourObstacleAvoidance.cpp; sourceTree = SOURCE_ROOT; };
+		D3CAD289907248218F85D8E5 /* ext_clipper */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_clipper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64820837F4546159E78F2BF /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathQueue.cpp; path = recast/DetourCrowd/DetourPathQueue.cpp; sourceTree = SOURCE_ROOT; };
+		DE3EBB34E7A44E82A882333E /* ext_xxhash */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxhash.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1F1A4C3CD274679B41B4DD5 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		EA766536CACF4ACCBF23A808 /* ext_convertUTF */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_convertUTF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06640ED1DD74D3992A6256F /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxhash/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F2E776368796402B9835EC6F /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/md5/md5.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = md5.c; path = md5/md5.c; sourceTree = SOURCE_ROOT; };
+		FCB80D37350E415892CD0BEC /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fastlz.c; path = recast/fastlz/fastlz.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048DDFF3015E46A7A7EE0721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41DC1C975281488FA7EDBBAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497B8FA3482046EDA0ED7279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6902376DABBB434BB801CD2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8414DAD3A82E484D904E9EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955073E9498543D6B32E852E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45E2AE335274000B1771650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F15DA9092A450BA0C935FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF87E0163834F5DA313283F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2CE3D6A46D4851A6F6DC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6C07100CEF4D8CB8686A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		084EE06A920D449FA837E06D /* ext_unzip */ = {
+			isa = PBXGroup;
+			children = (
+				475D997B2CCA437E9EA40D50 /* Source Files */,
+				B321B2DD36AC4936881E78FA /* Resources */,
+				09F64D2701AD404E87EB9EBA /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/CMakeLists.txt */,
+			);
+			name = ext_unzip;
+			sourceTree = "<group>";
+		};
+		0ACD6A6156874A2B9433B581 /* ext_clipper */ = {
+			isa = PBXGroup;
+			children = (
+				93747D5BC03C4C5C9C1AAE17 /* Source Files */,
+				F0E5C87AEBF943CCB065629A /* Resources */,
+				2562F603F46841738799D705 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/clipper/CMakeLists.txt */,
+			);
+			name = ext_clipper;
+			sourceTree = "<group>";
+		};
+		0C47308452E54AE59FBD6425 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22163C8A06C54904A5328AAE /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0DCEF54D5988499187EB1A38 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9527F3B4A874477EBA2E2219 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		14A39BB07D5D4EBA8C14120D = {
+			isa = PBXGroup;
+			children = (
+				CD88C68979F440FFBF03C1BF /* External */,
+				5B30D88B29604AFAAC793ACB /* ALL_BUILD */,
+				4F6B4BDE519446B7B9E6024B /* Products */,
+				19A4684BC6C4457296A87B1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		19A4684BC6C4457296A87B1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2272025566D9464280AB3177 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C641EF41A4524174AF266DE2 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/empty.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		23313D92790F42EDB5BC027C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				529EA6A8B8304199B52F5F94 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		319F475CACA944E7A83CFFA3 /* ext_tinyxml2 */ = {
+			isa = PBXGroup;
+			children = (
+				4ED048522FFC45909A81156D /* Source Files */,
+				C35E3A3F6B394D41A17A6ED0 /* Resources */,
+				480B1CA3E77540A3B4685E3E /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/tinyxml2/CMakeLists.txt */,
+			);
+			name = ext_tinyxml2;
+			sourceTree = "<group>";
+		};
+		3F1173DF761549198CAEFAF4 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				2272025566D9464280AB3177 /* Source Files */,
+				B7C53221A30547E19FBD40A8 /* Resources */,
+				66A2CA516FFD42EC982B8A50 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/CMakeLists.txt */,
+			);
+			name = external;
+			sourceTree = "<group>";
+		};
+		475D997B2CCA437E9EA40D50 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD1282394B4C4B5AB0A428D4 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/ioapi.cpp */,
+				64B194C9A8534228BB684677 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/ioapi_mem.cpp */,
+				24EDA3CAAE8F4689A15EDF15 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/unzip.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4BD8B92C41894418A00ECB47 /* ext_md5 */ = {
+			isa = PBXGroup;
+			children = (
+				B92F620E3949401595B2D957 /* Source Files */,
+				23313D92790F42EDB5BC027C /* Resources */,
+				448D4D21BFFF414C88518156 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/md5/CMakeLists.txt */,
+			);
+			name = ext_md5;
+			sourceTree = "<group>";
+		};
+		4ED048522FFC45909A81156D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				95E7EABA6DCC4A28AADD6F78 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4F6B4BDE519446B7B9E6024B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3CAD289907248218F85D8E5 /* ext_clipper */,
+				EA766536CACF4ACCBF23A808 /* ext_convertUTF */,
+				69AB53C6506C418FBEA2100E /* ext_edtaa3func */,
+				15EEFEBF3CB24ED6AE6963D2 /* ext_md5 */,
+				A582C0C5977E4B2688CD59F8 /* ext_poly2tri */,
+				48BE2BD614B942738E7E77B5 /* ext_recast */,
+				72A3DE358E8741ADB318970A /* ext_tinyxml2 */,
+				0E9227CD06784DB9B3092B47 /* ext_unzip */,
+				DE3EBB34E7A44E82A882333E /* ext_xxhash */,
+				1FE7FA232899409DA20D390A /* ext_xxtea */,
+				7F03F6B60F114C08B5B87773 /* external */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B30D88B29604AFAAC793ACB /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F011C89FE2AF475BB07564A2 /* CMake Rules */,
+				0E691F88C6D54D0BB4B83C0C /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		635FEA8A0B79478697271C7D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DAADCAD798F4EF7832751B1 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		68EEAA1A335642A587BA63DE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C68BFCFB7B0742D3B8430897 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				3BBD2F641B684FEE8969EB50 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6D0611B7E96745EC802BE3DC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C06B7DD1208405F8C5FF44D /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				4A7D32DE466C40239370A5F7 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				40E6EACD348A4D30A8C018CB /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				C942920F34734524B18BAC3E /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				BD17CCB0AFC44DE988834098 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				481D416542F745F8A555E6FF /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				169C0CD2ED2C4C6BAF58385A /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				D203C62472CE4A86BC3A9129 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				C9CDA5D9E2C0410A94210AE6 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				49361D9B08CB4DBE8DD2FCE3 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				D227664EC06441698BEEB5E0 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				3012C1BF859A42738C35E51E /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				D64820837F4546159E78F2BF /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				CA949E503D0E40F78831442D /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				060E2FE167A3420CABFC7A9E /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				4B022C7887034A7598E2110C /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				FCB80D37350E415892CD0BEC /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		888F0501B49F488FA46AB071 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6C9B24692FB4113B62D506B /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/common/shapes.cc */,
+				4765D6C7A1194DE7A677D7C9 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				62CF685EA71A469299D3BA53 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				072447BC50A9431ABD2C1028 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				175B60CE6CEF4D11BE772070 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8B5CCBD4CD114241B4EF6D99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9DED485593C34175AC6BAB74 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		93747D5BC03C4C5C9C1AAE17 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				88D25AC5EB4648C094EE462F /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/clipper/clipper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9E7589A9254A489BB0E43545 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1F1A4C3CD274679B41B4DD5 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A6C185D350714C1DB401E8E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22757D4CB6A24801A2239CA4 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B0ED2CC082734B1F84211963 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EEDA7B891914091B4C83BB7 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxhash/xxhash.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B321B2DD36AC4936881E78FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D3436DF0A3E4A33BC89B8CE /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B4DEA031E00243B0B913BA62 /* ext_edtaa3func */ = {
+			isa = PBXGroup;
+			children = (
+				DC0130CDFF52456283AD2AAB /* Source Files */,
+				8B5CCBD4CD114241B4EF6D99 /* Resources */,
+				885AFEB0C6EA4253B4A8728D /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/edtaa3func/CMakeLists.txt */,
+			);
+			name = ext_edtaa3func;
+			sourceTree = "<group>";
+		};
+		B7C53221A30547E19FBD40A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A78982D6F5744CD9AA04AD00 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/CMakeFiles/external.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B92F620E3949401595B2D957 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2E776368796402B9835EC6F /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/md5/md5.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BDA1923432ED4D0C9F2EA48E /* ext_xxhash */ = {
+			isa = PBXGroup;
+			children = (
+				B0ED2CC082734B1F84211963 /* Source Files */,
+				D5EA3DD5050647E8B3CBA36A /* Resources */,
+				F06640ED1DD74D3992A6256F /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxhash/CMakeLists.txt */,
+			);
+			name = ext_xxhash;
+			sourceTree = "<group>";
+		};
+		C35E3A3F6B394D41A17A6ED0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CFBBEA7B7EBC400FBB5493C3 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CD88C68979F440FFBF03C1BF /* External */ = {
+			isa = PBXGroup;
+			children = (
+				3F1173DF761549198CAEFAF4 /* external */,
+				D4907012106642C296858170 /* ext_recast */,
+				319F475CACA944E7A83CFFA3 /* ext_tinyxml2 */,
+				BDA1923432ED4D0C9F2EA48E /* ext_xxhash */,
+				E7B047FF841E45A9801B1F9C /* ext_xxtea */,
+				0ACD6A6156874A2B9433B581 /* ext_clipper */,
+				B4DEA031E00243B0B913BA62 /* ext_edtaa3func */,
+				FE39DC07272B4CCC85887166 /* ext_convertUTF */,
+				EA5C6F55219242FB8598502B /* ext_poly2tri */,
+				4BD8B92C41894418A00ECB47 /* ext_md5 */,
+				084EE06A920D449FA837E06D /* ext_unzip */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		D4907012106642C296858170 /* ext_recast */ = {
+			isa = PBXGroup;
+			children = (
+				6D0611B7E96745EC802BE3DC /* Source Files */,
+				9E7589A9254A489BB0E43545 /* Resources */,
+				3747B7C24CA44CD7B8CFAAFE /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/CMakeLists.txt */,
+			);
+			name = ext_recast;
+			sourceTree = "<group>";
+		};
+		D5EA3DD5050647E8B3CBA36A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5E72FE92D1C49A39B674BE8 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DC0130CDFF52456283AD2AAB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D019753EC004DC1B5C06A9B /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E7B047FF841E45A9801B1F9C /* ext_xxtea */ = {
+			isa = PBXGroup;
+			children = (
+				0DCEF54D5988499187EB1A38 /* Source Files */,
+				0C47308452E54AE59FBD6425 /* Resources */,
+				622270F826AA4930895DC86C /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxtea/CMakeLists.txt */,
+			);
+			name = ext_xxtea;
+			sourceTree = "<group>";
+		};
+		EA5C6F55219242FB8598502B /* ext_poly2tri */ = {
+			isa = PBXGroup;
+			children = (
+				888F0501B49F488FA46AB071 /* Source Files */,
+				A6C185D350714C1DB401E8E4 /* Resources */,
+				C3D8947282854E578F2B09D4 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/CMakeLists.txt */,
+			);
+			name = ext_poly2tri;
+			sourceTree = "<group>";
+		};
+		F011C89FE2AF475BB07564A2 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F0E5C87AEBF943CCB065629A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7A3E7E941D7E44C9A4171DBF /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FE39DC07272B4CCC85887166 /* ext_convertUTF */ = {
+			isa = PBXGroup;
+			children = (
+				68EEAA1A335642A587BA63DE /* Source Files */,
+				635FEA8A0B79478697271C7D /* Resources */,
+				A5A7A39FD3A843EE8E7ADCE0 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/ConvertUTF/CMakeLists.txt */,
+			);
+			name = ext_convertUTF;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09362DA815314B35B1091DF2 /* ext_edtaa3func */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7E21AE0A9C45D3A0ADC5A4 /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */;
+			buildPhases = (
+				AFA0A9EB672E4BAC9C49BAFB /* Sources */,
+				A7F15DA9092A450BA0C935FE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_edtaa3func;
+			productName = ext_edtaa3func;
+			productReference = 69AB53C6506C418FBEA2100E /* ext_edtaa3func */;
+			productType = "com.apple.product-type.library.static";
+		};
+		126AAC2B2EAC4ADCAB6EA133 /* ext_convertUTF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38F6E0971F79428CA73E123E /* Build configuration list for PBXNativeTarget "ext_convertUTF" */;
+			buildPhases = (
+				85A51D7BA7E44C40B71C03ED /* Sources */,
+				048DDFF3015E46A7A7EE0721 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_convertUTF;
+			productName = ext_convertUTF;
+			productReference = EA766536CACF4ACCBF23A808 /* ext_convertUTF */;
+			productType = "com.apple.product-type.library.static";
+		};
+		38E3A62F98F248B9972B0DBF /* ext_recast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D55445633DD6442E883BCBBA /* Build configuration list for PBXNativeTarget "ext_recast" */;
+			buildPhases = (
+				75CF1ADBCE144F0DAB7CCFF3 /* Sources */,
+				6902376DABBB434BB801CD2C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_recast;
+			productName = ext_recast;
+			productReference = 48BE2BD614B942738E7E77B5 /* ext_recast */;
+			productType = "com.apple.product-type.library.static";
+		};
+		411E586DCE95471AB19BAEED /* ext_xxtea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6B581534874F91946C9223 /* Build configuration list for PBXNativeTarget "ext_xxtea" */;
+			buildPhases = (
+				9086583C9A7B4B44B6248ECF /* Sources */,
+				41DC1C975281488FA7EDBBAA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxtea;
+			productName = ext_xxtea;
+			productReference = 1FE7FA232899409DA20D390A /* ext_xxtea */;
+			productType = "com.apple.product-type.library.static";
+		};
+		547E7F2E8F494D36BC6C83F8 /* external */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0001A09C062E419292CE4B4B /* Build configuration list for PBXNativeTarget "external" */;
+			buildPhases = (
+				EB2E287285C74EB8B64777E3 /* Sources */,
+				8414DAD3A82E484D904E9EEA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EDA559ADCEB4A2BBE5FB4D0 /* PBXTargetDependency */,
+				F023779FDC1A4921A0DA1134 /* PBXTargetDependency */,
+				42F4992BA03B4C41BEF610B7 /* PBXTargetDependency */,
+				3654AE06F61A452FB3ADDC9C /* PBXTargetDependency */,
+				67CD082A6EBB432580E55FE6 /* PBXTargetDependency */,
+				06199D403F67460C9ADE6F42 /* PBXTargetDependency */,
+				E0A2F8EB5D3F4CE1B303C839 /* PBXTargetDependency */,
+				758E006AD9F64AA99156A8F7 /* PBXTargetDependency */,
+				DF38016C140D4E578AB112D8 /* PBXTargetDependency */,
+				CCBAC8361653430F9A4D889F /* PBXTargetDependency */,
+				E830AD5E44D14C84A1D8C3A6 /* PBXTargetDependency */,
+			);
+			name = external;
+			productName = external;
+			productReference = 7F03F6B60F114C08B5B87773 /* external */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6A4B861A66044434A606EF8D /* ext_xxhash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B8DCDAB784451297CEBBE5 /* Build configuration list for PBXNativeTarget "ext_xxhash" */;
+			buildPhases = (
+				80DD73D076684242AA9DBCD5 /* Sources */,
+				FE2CE3D6A46D4851A6F6DC95 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxhash;
+			productName = ext_xxhash;
+			productReference = DE3EBB34E7A44E82A882333E /* ext_xxhash */;
+			productType = "com.apple.product-type.library.static";
+		};
+		79E796DDC3FE43479B7771B6 /* ext_unzip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E8A1A02EED4403973969F5 /* Build configuration list for PBXNativeTarget "ext_unzip" */;
+			buildPhases = (
+				A931213CF4BC41EDA44F5FD2 /* Sources */,
+				FF6C07100CEF4D8CB8686A91 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_unzip;
+			productName = ext_unzip;
+			productReference = 0E9227CD06784DB9B3092B47 /* ext_unzip */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7EFD4FC382174CBBBF63EA81 /* ext_poly2tri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF0539D28B647A0A1E19807 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */;
+			buildPhases = (
+				5CD6E38408CB4E2B9AC40BD3 /* Sources */,
+				497B8FA3482046EDA0ED7279 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_poly2tri;
+			productName = ext_poly2tri;
+			productReference = A582C0C5977E4B2688CD59F8 /* ext_poly2tri */;
+			productType = "com.apple.product-type.library.static";
+		};
+		81F3BB2F11C9496E9BDBB8FA /* ext_clipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C3451164E343E9AFB4B7DF /* Build configuration list for PBXNativeTarget "ext_clipper" */;
+			buildPhases = (
+				9A229050F58B45E68BC1DBD3 /* Sources */,
+				A45E2AE335274000B1771650 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_clipper;
+			productName = ext_clipper;
+			productReference = D3CAD289907248218F85D8E5 /* ext_clipper */;
+			productType = "com.apple.product-type.library.static";
+		};
+		89487A1238C04B96854709D1 /* ext_md5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3540BD037E3480A8F26C999 /* Build configuration list for PBXNativeTarget "ext_md5" */;
+			buildPhases = (
+				D99DBCA4A4644FBA80E3FA1C /* Sources */,
+				BAF87E0163834F5DA313283F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_md5;
+			productName = ext_md5;
+			productReference = 15EEFEBF3CB24ED6AE6963D2 /* ext_md5 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A6BC8D0E75A84F3A85A1D65D /* ext_tinyxml2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8DFDC9C7D3F4AC8AC9C3FF9 /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */;
+			buildPhases = (
+				4E004255A9DD47E9931506F3 /* Sources */,
+				955073E9498543D6B32E852E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_tinyxml2;
+			productName = ext_tinyxml2;
+			productReference = 72A3DE358E8741ADB318970A /* ext_tinyxml2 */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7822EE768244657895074FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 95E5B02CCC6B4321BEC8BA76 /* Build configuration list for PBXProject "external" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				16CDED94E7284319B51F17E1 /* Debug */,
+				EDB2ED20EED54DD698EA02DC /* Release */,
+				2892AC5CF0114F0595F1A6FA /* MinSizeRel */,
+				C5B1DE0C7B4449F4851CC15F /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 14A39BB07D5D4EBA8C14120D;
+			projectDirPath = ../../../cocos2d/external;
+			projectRoot = "";
+			targets = (
+				3B1A8FCBECC6448289726991 /* ALL_BUILD */,
+				70279F6B86DA4E04BDC49D59 /* ZERO_CHECK */,
+				81F3BB2F11C9496E9BDBB8FA /* ext_clipper */,
+				126AAC2B2EAC4ADCAB6EA133 /* ext_convertUTF */,
+				09362DA815314B35B1091DF2 /* ext_edtaa3func */,
+				89487A1238C04B96854709D1 /* ext_md5 */,
+				7EFD4FC382174CBBBF63EA81 /* ext_poly2tri */,
+				38E3A62F98F248B9972B0DBF /* ext_recast */,
+				A6BC8D0E75A84F3A85A1D65D /* ext_tinyxml2 */,
+				79E796DDC3FE43479B7771B6 /* ext_unzip */,
+				6A4B861A66044434A606EF8D /* ext_xxhash */,
+				411E586DCE95471AB19BAEED /* ext_xxtea */,
+				547E7F2E8F494D36BC6C83F8 /* external */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A1A9C52E710A0DA99E8E96A /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external
+  make -f /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external
+  make -f /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external
+  make -f /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external
+  make -f /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5E275BB711BF9608F100595D /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E004255A9DD47E9931506F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164D9932AF00435CB56772AE /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD6E38408CB4E2B9AC40BD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A272B5ABAC4A22B35A8CDF /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/common/shapes.cc */,
+				7723684D7BED4AFB8CDFBA35 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				17BC85B3FC894D509BDA6BEC /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				09E50D78F8704E478C728F08 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				4872F22A80B149128FB61AEC /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75CF1ADBCE144F0DAB7CCFF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE25ADC2A9E4B55A662898F /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				C146B76F6F464939A7ECE789 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				83D51A865DC5470C97BC6499 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				A3C672E0E2804831B5BBD5FC /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				D9B346EDBD524B328C90EA92 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				1661B0D998AA44D9A22B2A59 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				B91C5489FFD74A74B8C04D23 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				E7E4FD4597214183B00E84AE /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				09A2D59C44404AEF828D4310 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				6A52B227C61847B3A0E7551C /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				6E0E930F7D95421EAD681719 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				2DF93B16BA04468D80DAC259 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				0D316A03AE8E4A5DAE683CAD /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				4FF6928CC6664C138D44B077 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				C8008DCAE3254651AF97F249 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				77C8C5A406654BA1B196B7C5 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				F6E39D6B66544F558B052BA4 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DD73D076684242AA9DBCD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72022B61D84547A6979C23D3 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxhash/xxhash.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A51D7BA7E44C40B71C03ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A20EE6D77724CD5A3E18A4C /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				43263CE14AC64CDBA2813839 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9086583C9A7B4B44B6248ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B58D1C75E342EFAF29467E /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A229050F58B45E68BC1DBD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339EEB50AAD944DD9C8B3145 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/clipper/clipper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A931213CF4BC41EDA44F5FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A8899839F9430C968C5EB4 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/ioapi.cpp */,
+				EB91B0B63E3B40AE96DF7A26 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/ioapi_mem.cpp */,
+				87718D26A8B74E59B778F377 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/unzip.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA0A9EB672E4BAC9C49BAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09F139601CE4B75B22808CA /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D99DBCA4A4644FBA80E3FA1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E08CA281D98483B93DC6A80 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/md5/md5.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2E287285C74EB8B64777E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3854686A59741C1842A17B7 /* /Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/empty.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06199D403F67460C9ADE6F42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09362DA815314B35B1091DF2 /* ext_edtaa3func */;
+			targetProxy = 87435B71AAB24086BCF38AD5 /* PBXContainerItemProxy */;
+		};
+		3654AE06F61A452FB3ADDC9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 411E586DCE95471AB19BAEED /* ext_xxtea */;
+			targetProxy = ACB9770ACB07469388503E88 /* PBXContainerItemProxy */;
+		};
+		40EB507CAF934BA2B13114AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09362DA815314B35B1091DF2 /* ext_edtaa3func */;
+			targetProxy = F4EC8F5BBA66428C8651B8B2 /* PBXContainerItemProxy */;
+		};
+		42F4992BA03B4C41BEF610B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A4B861A66044434A606EF8D /* ext_xxhash */;
+			targetProxy = BA94CF45B04545C9BDFB0CEC /* PBXContainerItemProxy */;
+		};
+		4AD60D85C72E46A089679442 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38E3A62F98F248B9972B0DBF /* ext_recast */;
+			targetProxy = 4D7D0CC5FBB54FF28C665281 /* PBXContainerItemProxy */;
+		};
+		650A6C64476D4FFF9D1EFC66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A4B861A66044434A606EF8D /* ext_xxhash */;
+			targetProxy = 14FDFB8E6E3240E2845C7E0B /* PBXContainerItemProxy */;
+		};
+		66399CDC91CC41DC80D3B9DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 547E7F2E8F494D36BC6C83F8 /* external */;
+			targetProxy = C4F55A0E6AB14337A4C1AC97 /* PBXContainerItemProxy */;
+		};
+		67CD082A6EBB432580E55FE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81F3BB2F11C9496E9BDBB8FA /* ext_clipper */;
+			targetProxy = C0B0D458574A412481E00C42 /* PBXContainerItemProxy */;
+		};
+		72FB9AC171C944BA89B30C8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81F3BB2F11C9496E9BDBB8FA /* ext_clipper */;
+			targetProxy = 383A817420444AD8887F5A2C /* PBXContainerItemProxy */;
+		};
+		758E006AD9F64AA99156A8F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EFD4FC382174CBBBF63EA81 /* ext_poly2tri */;
+			targetProxy = 71DC026853CF404F826B4B8D /* PBXContainerItemProxy */;
+		};
+		915904E2503D424FB2A2D80A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 411E586DCE95471AB19BAEED /* ext_xxtea */;
+			targetProxy = EEA285F771CB47D088134046 /* PBXContainerItemProxy */;
+		};
+		9EDA559ADCEB4A2BBE5FB4D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38E3A62F98F248B9972B0DBF /* ext_recast */;
+			targetProxy = F5BE5712F6364D84B26EC44D /* PBXContainerItemProxy */;
+		};
+		A1650ADF8EE5405B99931B61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6BC8D0E75A84F3A85A1D65D /* ext_tinyxml2 */;
+			targetProxy = 89CB2A2823974E7EAE26518D /* PBXContainerItemProxy */;
+		};
+		B3458FFC6B8B4904979AB34F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E796DDC3FE43479B7771B6 /* ext_unzip */;
+			targetProxy = 9209DEC9C7B74C35A22A8187 /* PBXContainerItemProxy */;
+		};
+		B3478AF7D83B4A869E45FA2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70279F6B86DA4E04BDC49D59 /* ZERO_CHECK */;
+			targetProxy = 68004B9EE5EA4BD1A709D650 /* PBXContainerItemProxy */;
+		};
+		CCBAC8361653430F9A4D889F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E796DDC3FE43479B7771B6 /* ext_unzip */;
+			targetProxy = F76E113FDD654D18A87A65A7 /* PBXContainerItemProxy */;
+		};
+		D04035FF86324B94B8E2FCBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89487A1238C04B96854709D1 /* ext_md5 */;
+			targetProxy = EAD3E21DB6B8471A907EAAF7 /* PBXContainerItemProxy */;
+		};
+		D070443F7698451ABE2F7914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 126AAC2B2EAC4ADCAB6EA133 /* ext_convertUTF */;
+			targetProxy = ECACC847B48E45518236636B /* PBXContainerItemProxy */;
+		};
+		D4B9FCC73E3F48A2A6F7F364 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EFD4FC382174CBBBF63EA81 /* ext_poly2tri */;
+			targetProxy = A9E267FC24624EBEA333E86C /* PBXContainerItemProxy */;
+		};
+		DF38016C140D4E578AB112D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89487A1238C04B96854709D1 /* ext_md5 */;
+			targetProxy = 2F3D5279CE9E47089712EF34 /* PBXContainerItemProxy */;
+		};
+		E0A2F8EB5D3F4CE1B303C839 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 126AAC2B2EAC4ADCAB6EA133 /* ext_convertUTF */;
+			targetProxy = E3F0D5E70C044158A1D61623 /* PBXContainerItemProxy */;
+		};
+		E830AD5E44D14C84A1D8C3A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70279F6B86DA4E04BDC49D59 /* ZERO_CHECK */;
+			targetProxy = EECE10B5211647349DCB39F0 /* PBXContainerItemProxy */;
+		};
+		F023779FDC1A4921A0DA1134 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6BC8D0E75A84F3A85A1D65D /* ext_tinyxml2 */;
+			targetProxy = A918274B54FE40C0977BCFE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		027931D4A3EE4BEBA078AACA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		029AFE51BE52495BB3C04B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0E922058EF934C44984960F0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1829497C83CA44BAABFE952C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		197635937B794ACD94338EB4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1A99237B68A944B8A558BA12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "   '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		25E236AB6C634AB384998E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		25EAB80B2CD745D0A5965E9B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2701B47DA81F40B288335332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "   '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		285B6430670F449DAC8E732B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		292B79E26C8542078DCDC29B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2931FB966230456F88B87686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/..,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/tinyxml2/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxhash/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxtea/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/clipper/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/edtaa3func/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/ConvertUTF/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/..,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/md5/..,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/Box2D/include,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/chipmunk/include,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/freetype2/include/ios/freetype2,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/bullet/include,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/bullet/include/bullet,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/jpeg/include/ios,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/openssl/include/ios,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/uv/include,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/webp/include/ios,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/websockets/include/ios,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/curl/include/ios,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/png/include/ios,"/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2C9335C087294EE599AFF131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2E68B96E916B4051B90504A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		340AD7A37A9F4860A162F61A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk;
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/build";
+				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
+			};
+			name = Debug;
+		};
+		37FECAE417CD44ECA355156B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		397B756E373E4204BEC99D2F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3E3C1A73C6FE4196B1D1E6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		459C3015EB4446FB81107D25 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		486D587CB334456C9794ECC7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		50C7D8CC23F14960BE5EEC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		51B3D475EAB8448396584BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5DEE47976B8648B896E56466 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5FF91C22795B495B80774412 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		614132048061451AB18F4B75 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		63C44AABB9EE488B91239C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		648D912B6831446FA130DCDF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/..,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/tinyxml2/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxhash/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxtea/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/clipper/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/edtaa3func/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/ConvertUTF/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/..,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/md5/..,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/Box2D/include,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/chipmunk/include,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/freetype2/include/ios/freetype2,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/bullet/include,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/bullet/include/bullet,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/jpeg/include/ios,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/openssl/include/ios,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/uv/include,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/webp/include/ios,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/websockets/include/ios,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/curl/include/ios,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/png/include/ios,"/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		678B09DC17E8416EB49E0960 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		67A1D7467B054CD5AF2DC4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		69E891FC2938464EB7928036 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7B1146754C6D4A1093E427EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "   '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7B46999882FC416E82A027C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/..,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/tinyxml2/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxhash/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxtea/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/clipper/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/edtaa3func/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/ConvertUTF/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/..,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/md5/..,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/Box2D/include,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/chipmunk/include,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/freetype2/include/ios/freetype2,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/bullet/include,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/bullet/include/bullet,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/jpeg/include/ios,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/openssl/include/ios,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/uv/include,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/webp/include/ios,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/websockets/include/ios,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/curl/include/ios,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/png/include/ios,"/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7D1FD1A79B06416EAE834AB5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk;
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/build";
+				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
+			};
+			name = MinSizeRel;
+		};
+		91F22212B17147A3976B532A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9329A72DB8DC45A5A95A5D99 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/..,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/tinyxml2/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxhash/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxtea/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/clipper/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/edtaa3func/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/ConvertUTF/.,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/..,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/md5/..,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/Box2D/include,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/chipmunk/include,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/freetype2/include/ios/freetype2,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/bullet/include,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/bullet/include/bullet,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/jpeg/include/ios,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/openssl/include/ios,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/uv/include,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/webp/include/ios,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/websockets/include/ios,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/curl/include/ios,/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/png/include/ios,"/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9532A144234047978B435E5D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		96CBD0ADCF8A463FA0F13C5C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		995BB1CCD3E6422BBEC39724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A4FC697C9B1B4A19A79C2386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B53B01656C99424D9CC630B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B5FD83F4D78B42A197AE1AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B82A8AEC62C04CEF8B7F6FEA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BBCC0C6576F64E729A24A395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C09311B201CB4F2B9E7EB238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C13B5BFAAA1B473EBBC0A620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "   '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C3A3AF26ABC342D99CCB5956 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C56104D04C8F49B98D3E2AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk;
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/build";
+				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
+			};
+			name = Release;
+		};
+		D45B62A3A35F420EB706EC7C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D511715F36C04F2F8ECAE988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D5DC8B6DF7C648C4B604CA63 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk;
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/build";
+				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
+			};
+			name = RelWithDebInfo;
+		};
+		D88C8AF178EE4AE1B28613AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DA49A1FF4D444C4B802AC545 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DB19A17E476945F9874965C3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DEDD1E1B3ABB4635A43433F8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F45A2B2712F646178AC70220 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F69A329878C244C7BCECC31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kenneth/dev/cocos/cocos_projects/SharetraceCpp/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0001A09C062E419292CE4B4B /* Build configuration list for PBXNativeTarget "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B46999882FC416E82A027C0 /* Debug */,
+				2931FB966230456F88B87686 /* Release */,
+				648D912B6831446FA130DCDF /* MinSizeRel */,
+				9329A72DB8DC45A5A95A5D99 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		150D1E79DE654599B48D64B3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5FD83F4D78B42A197AE1AA6 /* Debug */,
+				BBCC0C6576F64E729A24A395 /* Release */,
+				1829497C83CA44BAABFE952C /* MinSizeRel */,
+				614132048061451AB18F4B75 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		27E8A1A02EED4403973969F5 /* Build configuration list for PBXNativeTarget "ext_unzip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E236AB6C634AB384998E1E /* Debug */,
+				50C7D8CC23F14960BE5EEC2F /* Release */,
+				486D587CB334456C9794ECC7 /* MinSizeRel */,
+				292B79E26C8542078DCDC29B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		38F6E0971F79428CA73E123E /* Build configuration list for PBXNativeTarget "ext_convertUTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C13B5BFAAA1B473EBBC0A620 /* Debug */,
+				D88C8AF178EE4AE1B28613AB /* Release */,
+				197635937B794ACD94338EB4 /* MinSizeRel */,
+				D45B62A3A35F420EB706EC7C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		42B8DCDAB784451297CEBBE5 /* Build configuration list for PBXNativeTarget "ext_xxhash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B1146754C6D4A1093E427EA /* Debug */,
+				3E3C1A73C6FE4196B1D1E6AF /* Release */,
+				37FECAE417CD44ECA355156B /* MinSizeRel */,
+				DB19A17E476945F9874965C3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8AF0539D28B647A0A1E19807 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09311B201CB4F2B9E7EB238 /* Debug */,
+				995BB1CCD3E6422BBEC39724 /* Release */,
+				B82A8AEC62C04CEF8B7F6FEA /* MinSizeRel */,
+				F45A2B2712F646178AC70220 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		95E5B02CCC6B4321BEC8BA76 /* Build configuration list for PBXProject "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				340AD7A37A9F4860A162F61A /* Debug */,
+				C56104D04C8F49B98D3E2AD5 /* Release */,
+				7D1FD1A79B06416EAE834AB5 /* MinSizeRel */,
+				D5DC8B6DF7C648C4B604CA63 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A0C3451164E343E9AFB4B7DF /* Build configuration list for PBXNativeTarget "ext_clipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029AFE51BE52495BB3C04B57 /* Debug */,
+				67A1D7467B054CD5AF2DC4FD /* Release */,
+				C3A3AF26ABC342D99CCB5956 /* MinSizeRel */,
+				027931D4A3EE4BEBA078AACA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A1B49ADA3BB24BCBBC240572 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C44AABB9EE488B91239C98 /* Debug */,
+				2C9335C087294EE599AFF131 /* Release */,
+				96CBD0ADCF8A463FA0F13C5C /* MinSizeRel */,
+				397B756E373E4204BEC99D2F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B3540BD037E3480A8F26C999 /* Build configuration list for PBXNativeTarget "ext_md5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2701B47DA81F40B288335332 /* Debug */,
+				A4FC697C9B1B4A19A79C2386 /* Release */,
+				5FF91C22795B495B80774412 /* MinSizeRel */,
+				DEDD1E1B3ABB4635A43433F8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C8DFDC9C7D3F4AC8AC9C3FF9 /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53B01656C99424D9CC630B1 /* Debug */,
+				D511715F36C04F2F8ECAE988 /* Release */,
+				25EAB80B2CD745D0A5965E9B /* MinSizeRel */,
+				0E922058EF934C44984960F0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D55445633DD6442E883BCBBA /* Build configuration list for PBXNativeTarget "ext_recast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A99237B68A944B8A558BA12 /* Debug */,
+				F69A329878C244C7BCECC31A /* Release */,
+				459C3015EB4446FB81107D25 /* MinSizeRel */,
+				9532A144234047978B435E5D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FB6B581534874F91946C9223 /* Build configuration list for PBXNativeTarget "ext_xxtea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				285B6430670F449DAC8E732B /* Debug */,
+				91F22212B17147A3976B532A /* Release */,
+				678B09DC17E8416EB49E0960 /* MinSizeRel */,
+				5DEE47976B8648B896E56466 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FC7E21AE0A9C45D3A0ADC5A4 /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E68B96E916B4051B90504A1 /* Debug */,
+				51B3D475EAB8448396584BC0 /* Release */,
+				69E891FC2938464EB7928036 /* MinSizeRel */,
+				DA49A1FF4D444C4B802AC545 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7822EE768244657895074FE /* Project object */;
+}
